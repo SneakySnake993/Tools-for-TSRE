@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Tools4TSRE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## English Version
 
-## Available Scripts
+### Project Overview
 
-In the project directory, you can run:
+Tools4TSRE is a desktop application designed to simplify the creation of maps for the OpenRails train simulator. Developed using Tauri, the application leverages modern technologies to offer a lightweight and performant tool that facilitates the importation of geographic and topographic data into the Train Simulator Route Explorer \(TSRE\). The application supports the selection of specific geographic areas, seamless data integration, and offers a user-friendly interface tailored to both experienced and novice users of OpenRails.
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Location Search:** Search for specific locations and navigate seamlessly across the map.
+- **Interactive Map:** Move, zoom, and interact with the map using Leaflet.
+- **Area Selection:** Select specific geographic areas directly on the map for data import.
+- **Clear Selection:** Reset or change the selected area with ease.
+- **Directory Selection:** Choose local directories for data storage.
+- **Geographic Data Import:** Import geographic data into TSRE after selecting an area and directory.
+- **Topographic Data Import:** Import topographic data into TSRE after selecting an area, directory, and logging into your USGS EarthExplorer account.
+- **User Authentication:** Secure login and token management for accessing USGS EarthExplorer data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/Tools4TSRE.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**
+   Navigate to the project directory and install the necessary dependencies.
+   ```bash
+   cd Tools4TSRE
+   npm install
+   ```
 
-### `npm run build`
+3. **Build the Application**
+   Compile and package the application using Tauri.
+   ```bash
+   npm run tauri build
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Run the Application**
+   Launch the application in development mode.
+   ```bash
+   npm run tauri dev
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Search for a Location:**
+   Use the search bar to find and navigate to a specific location on the map.
+   
+2. **Select an Area:**
+   Draw a rectangle on the map to select the area for which you want to import data.
 
-### `npm run eject`
+3. **Choose a Directory:**
+   Select the local directory where you want to save the imported data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Import Data:**
+   - For geographic data, simply select the area and directory, and click on 'Import Geographic Data.'
+   - For topographic data, ensure you are logged into your USGS EarthExplorer account, then proceed with the import.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Manage Data:**
+   Clear your selected area or change your directory as needed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Contributions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions to the project are welcome! Feel free to submit issues, pull requests, or suggest new features.
