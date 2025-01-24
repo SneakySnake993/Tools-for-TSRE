@@ -27,7 +27,7 @@ Tools4TSRE is a desktop application designed to simplify the creation of maps fo
 2. **Install Dependencies**
    Navigate to the project directory and install the necessary dependencies.
    ```bash
-   cd Tools4TSRE
+   cd Tools-for-TSRE
    ```
    ```bash
    npm install
