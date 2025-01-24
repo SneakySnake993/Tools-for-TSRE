@@ -21,7 +21,7 @@ Tools4TSRE is a desktop application designed to simplify the creation of maps fo
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/Tools4TSRE.git
+   git clone https://github.com/SneakySnake993/https---gitlab.com-DTM-Henallux-MASI-etudiants-brich-johan-tools-for-tsre.git
    ```
 
 2. **Install Dependencies**
