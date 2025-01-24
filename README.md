@@ -1,7 +1,5 @@
 # Tools4TSRE
 
-## English Version
-
 ### Project Overview
 
 Tools4TSRE is a desktop application designed to simplify the creation of maps for the OpenRails train simulator. Developed using Tauri, the application leverages modern technologies to offer a lightweight and performant tool that facilitates the importation of geographic and topographic data into the Train Simulator Route Explorer \(TSRE\). The application supports the selection of specific geographic areas, seamless data integration, and offers a user-friendly interface tailored to both experienced and novice users of OpenRails.
